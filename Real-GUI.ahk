@@ -20,11 +20,15 @@ if not FileExist(Settings)
     IniWrite, 倍数=%scale%`n格式=%fmt%`n算法=%mode%`n后缀=%appendText%`n后台=%bg%, %Settings%, Section
 }else
 {
-    IniRead, scale ,%Settings%,Section,倍数
-    IniRead, fmt ,%Settings%,Section,格式
-    IniRead, mode ,%Settings%,Section,算法
-    IniRead, appendText ,%Settings%,Section,后缀
-    IniRead, bg ,%Settings%,Section,后台
+    if (%0% != 0)
+    {
+        IniRead, scale ,%Settings%,Section,倍数
+        IniRead, fmt ,%Settings%,Section,格式
+        IniRead, mode ,%Settings%,Section,算法
+        IniRead, appendText ,%Settings%,Section,后缀
+        IniRead, bg ,%Settings%,Section,后台
+    }
+
 }
 
 Runner(Parm)
