@@ -1,4 +1,4 @@
-﻿; 作者：scifx
+; 作者：scifx
 ; 网站：https://scifx.github.io
 ; 社交媒体：https://space.bilibili.com/232679770
 #SingleInstance Force
@@ -127,6 +127,12 @@ IniWrite, 倍数=%scale%`n格式=%fmt%`n算法=%mode%`n后缀=%appendText%`n后�
 ExitApp
 
 GuiDropFiles(GuiHwnd, FileArray, CtrlHwnd, X, Y) {
+    global Settings
+    global scale
+    global fmt
+    global mode
+    global appendText
+    global bg
     Gui, Submit,NoHide
     IniWrite, 倍数=%scale%`n格式=%fmt%`n算法=%mode%`n后缀=%appendText%`n后台=%bg%, %Settings%, Section
     for i, Parm in FileArray
