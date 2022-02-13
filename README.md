@@ -19,7 +19,7 @@
 
 ##### 用法提要
 
-- 下载[**Real-GUI.zip**](https://github.com/scifx/Real-GUI/releases/download/v1.0/Real-GUI.zip)解压缩，直接双击运行Real-GUI.exe
+- 下载[**Real-GUI.zip**](https://github.com/scifx/Real-GUI/releases/download/v1.01/Real-GUI.zip)解压缩，直接双击运行Real-GUI.exe
 - 把图片拖拽进软件窗口里即可完成图片清晰度转换
 - 放大的新文件将出现在源文件目录下
 
