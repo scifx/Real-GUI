@@ -103,7 +103,7 @@ Gui Add, CheckBox, vbg x16 y216 w120 h23 +Checked , 后台运行
 Gui Add, Button, gpress x158 y216 w80 h23,&保存
 
 
-Gui Show, w246 h256, 图像放大
+Gui Show, w246 h256, Real-GUI
 Return
 
 2x:
