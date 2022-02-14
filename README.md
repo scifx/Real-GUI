@@ -64,6 +64,6 @@
 
 除了这里也可以在B站看使用教程和给我反馈
 
-B站 https://space.bilibili.com/232679770
+https://www.bilibili.com/video/BV1SR4y1L7qb
 
 另外感谢源项目的团队，弄了这么好的东西！
