@@ -31,7 +31,7 @@
 ![img](https://raw.githubusercontent.com/scifx/Real-GUI/main/assets/高级.jpg)
 
 
-##### 用法提要（B站观看使用教程 https://www.bilibili.com/video/BV1SR4y1L7qb）
+##### 用法提要（B站观看使用教程 https://www.bilibili.com/video/BV1SR4y1L7qb
 - 下载[**Real-GUI.zip**](https://github.com/scifx/Real-GUI/releases/download/v1.02/Real-GUI-1.02.zip)解压缩，直接双击运行Real-GUI.exe
 - 把图片拖拽进软件窗口里即可完成图片清晰度转换
 - 放大的新文件将出现在源文件目录下
